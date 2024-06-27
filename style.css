@@ -1,0 +1,110 @@
+html {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    min-height: 100vh;
+    color: #d8e9ef;
+    background-image: linear-gradient(-20deg, #EDAE48 0%, #D1495B 100%);
+    background-size: cover;
+  }
+  h1 {
+    margin: 0 auto 10px auto;
+    color: #d8e9ef;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .app-message {
+    height: 20px;
+    margin: 10px auto 20px auto;
+  }
+  
+  .app-container {
+    width: 500px;
+    height: 840px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .app-circle {
+    
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .circle-shape {
+    pointer-events: none;
+  }
+
+  .semi-circle {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    box-sizing: border-box;
+    border: solid 6px;
+  }
+  
+  .left-side {
+    top: 0;
+    left: 0;
+    transform-origin: right center;
+    transform: rotate(0deg);
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-right: none;
+    z-index: 1;
+  }
+  
+   .right-side {
+    top: 0;
+    left: 200px;
+    transform-origin: left center;
+    transform: rotate(0deg);
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-left: none;
+  }
+
+  .circle {
+    border-color: #ff0000;
+  }
+  
+  .circle-mask {
+    border-color: #f04005;
+  }
+
+  .app-counter-box {
+    font-family: 'Droid Sans Mono', monospace;
+    font-size: 250%;
+    position: relative;
+    top: 150px;
+    color: #d8e9ef;
+  }
+  .app-button-box{
+    position: relative;
+    top: 150px;
+  }
+  
+  button {
+    position: relative;
+    top: 50px;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: white 2px solid;
+    border-radius: 20PX;
+    padding: 10px;
+    background: none;
+    outline: none;
+    color: #efddd8;
+  }
+  
+  button:hover {
+    padding: 12px;
+  }
